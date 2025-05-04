@@ -1,2 +1,5 @@
-# Atividade-02-.a--Plotando-campos-vetoriais
-Visualizando graficamente um campo vetorial bidimensional
+Este projeto tem como objetivo visualizar graficamente um campo vetorial bidimensional utilizando a linguagem Python, por meio das bibliotecas NumPy e Matplotlib. A proposta consiste em representar, em um plano cartesiano, um conjunto de vetores definidos em cada ponto de uma malha regular no espaço bidimensional.
+
+Inicialmente, é gerada uma grade de pontos em duas dimensões, abrangendo um intervalo de valores para os eixos horizontal e vertical. Em cada ponto dessa grade, são calculadas as componentes dos vetores que formam o campo vetorial, com base em funções aplicadas às coordenadas dos pontos. Essas componentes definem a direção e o sentido de cada vetor no plano.
+
+A visualização é realizada com a função quiver, que desenha setas representando os vetores sobre o gráfico. O campo vetorial é exibido em cor verde e o gráfico é configurado com rótulos nos eixos, grade de fundo e proporções ajustadas para garantir a correta visualização das direções. O resultado é uma representação clara e intuitiva do comportamento do campo no plano bidimensional, o que facilita a compreensão de seus padrões e variações.
